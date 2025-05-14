@@ -1,5 +1,6 @@
 import PrimaryBtn from '../../../Components/PrimaryBtn'
 import SecondaryBtn from '../../../Components/SecondaryBtn'
+import officeImg from '../../../assets/About Us/officeGrp.jpg'
 
 function AboutServices() {
   return (
@@ -16,12 +17,27 @@ function AboutServices() {
             </div>
         </div>
         {/* image layout */}
-        <div className="w-full h-[500px] grid grid-cols-2 gap-4">
-            <div className="grid grid-rows-2 gap-4 h-full">
-                
-            </div>
-            <div className="h-full">
-                
+        <div className="w-full">
+            <div className="w-full h-full">
+                <div className="flex flex-col md:flex-row gap-4 justify-center">
+          {/* First slice */}
+          <div
+            className="card w-full md:w-1/3 lg:w-1/4 h-[500px] bg-cover bg-no-repeat rounded-2xl shadow-xl"
+            style={{ backgroundImage: `url(${officeImg})`, backgroundPosition: 'left' }}
+          ></div>
+
+          {/* Second slice */}
+          <div
+            className="card w-full md:w-1/3 lg:w-1/4 h-[500px] bg-cover bg-no-repeat rounded-2xl shadow-xl mt-24"
+            style={{ backgroundImage: `url(${officeImg})`, backgroundPosition: 'center' }}
+          ></div>
+
+          {/* Third slice */}
+          <div
+            className="card w-full md:w-1/3 lg:w-1/4 h-[500px] bg-cover bg-no-repeat rounded-2xl shadow-xl"
+            style={{ backgroundImage: `url(${officeImg})`, backgroundPosition: 'right' }}
+          ></div>
+        </div>
             </div>
         </div>
     </section>
