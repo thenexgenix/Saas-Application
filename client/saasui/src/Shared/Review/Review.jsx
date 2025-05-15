@@ -1,5 +1,6 @@
 import img1 from "../../assets/About Us/person (1).jpg";
 import img2 from "../../assets/About Us/person (2).jpg";
+import img3 from "../../assets/About Us/singlePersson.jpg"
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -48,7 +49,7 @@ function Review() {
       author: "Jane Doe",
       role: "Project Manager",
       rating: 4.5,
-      image: img1,
+      image: img3,
     },
     {
       title: "Top-Notch Quality!",
