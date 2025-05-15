@@ -5,6 +5,9 @@ import AboutUsDetails from './Sections/AboutUsDetails'
 import Details from './Sections/Details'
 import OfficeCulture from './Sections/OfficeCulture'
 import MeetOurTeam from './Sections/MeetOurTeam'
+import NewsletterSection from '../../Shared/NewsletterSection'
+import Review from '../../Shared/Review/Review'
+import Sponser from '../../Shared/Sponser/Sponser'
 
 function About() {
   return (
@@ -30,10 +33,16 @@ function About() {
       <SectionBorder />
 
       {/* Review */}
+      <Review />
+      <SectionBorder />
 
       {/* sponser */}
+      <Sponser />
+      <SectionBorder />
 
       {/* newsletter */}
+      <NewsletterSection />
+      <SectionBorder />
 
     </div>
   )

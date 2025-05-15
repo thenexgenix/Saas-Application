@@ -9,7 +9,7 @@ function OfficeCulture() {
   return (
     <section className="flex flex-col lg:flex-row gap-24 items-center">
         <div className="md:w-full lg:w-[600px]">
-            <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold">Office Culture</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold">Office {" "} <span className="inline-block"> Culture<div className="-mt-3 h-3 w-full bg-[var(--accent-yellow)]"></div></span></h1>
             <p className="text-xl my-8 text-justify">Develop a website by finding a product identity that has value and branding to become a character of a company. 
                 We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use 
                 website and help sell a product from the company.</p>

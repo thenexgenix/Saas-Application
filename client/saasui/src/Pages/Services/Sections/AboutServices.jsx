@@ -6,7 +6,9 @@ function AboutServices() {
   return (
     <section className="flex flex-col lg:flex-row gap-16 items-center">
         <div className="w-full">
-            <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold ">We Boost the Growth For <span className='border-b-4 border-[var(--accent-yellow)]'>Startup</span> To Fortune 500 Companies</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-[56px] font-bold ">We Boost the Growth For {" "} 
+              <span className="inline-block">Startup<div className="-mt-3 h-3 w-full bg-[var(--accent-yellow)]"></div></span> 
+              {" "} To Fortune 500 Companies</h1>
             <p className="text-xl my-8 text-justify">Develop a website by finding a product identity that has value and branding to become a character of a company. 
                 We will also facilitate the business marketing of these products with our SEO experts so that they become a ready-to-use 
                 website and help sell a product from the company.</p>
