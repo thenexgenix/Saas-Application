@@ -32,8 +32,8 @@ function Services() {
         <SectionBorder />
 
         {/* sponsor */}
-        <Sponsor />
-        <SectionBorder />
+        {/* <Sponsor />
+        <SectionBorder /> */}
 
         {/* newsletter */}
         <NewsletterSection />

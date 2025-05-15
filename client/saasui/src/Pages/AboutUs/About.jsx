@@ -37,8 +37,8 @@ function About() {
       <SectionBorder />
 
       {/* sponser */}
-      <Sponser />
-      <SectionBorder />
+      {/* <Sponser />
+      <SectionBorder /> */}
 
       {/* newsletter */}
       <NewsletterSection />
