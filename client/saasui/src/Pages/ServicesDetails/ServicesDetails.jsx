@@ -1,7 +1,9 @@
 import SectionBanner from "../../Components/SectionBanner";
 import SectionBorder from "../../Components/SectionBorder";
 import Categories from "../../Shared/Categories/Categories";
+import NewsletterSection from "../../Shared/NewsletterSection";
 import ContactUs from "./Sections/ContactUs";
+import FrequentQuestion from "./Sections/FrequentQuestion";
 import ServicesDetailsSection from "./Sections/ServicesDetailsSection";
 import TestomonialCarosol from "./Sections/TestomonialCarosol";
 
@@ -32,11 +34,15 @@ function ServicesDetails() {
           <ContactUs />
         </div>
       </div>
-      <SectionBorder />
+      {/* <SectionBorder /> */}
 
       {/* frequently question and answer */}
+      <FrequentQuestion />
+      <SectionBorder />
 
       {/* newsletterr */}
+      <NewsletterSection />
+      <SectionBorder />
     </section>
   );
 }
