@@ -83,6 +83,19 @@ function ContactUsPage() {
         </div>
       </div>
 
+      
+      {/* google map */}
+      <div className="mt-12">
+       <iframe 
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117987.8685531865!2d91.88865702096098!3d22.462090898997413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad2f1dac23e023%3A0xa8390badc675b5e7!2sIT%20Business%20Incubator%2C%20CUET!5e0!3m2!1sen!2sbd!4v1747323761792!5m2!1sen!2sbd" 
+       width="100%"  
+       style={{border:0}}
+       allowfullscreen="" 
+       loading="lazy" 
+       referrerpolicy="no-referrer-when-downgrade"
+       className="rounded-lg h-[200px] md:h-[300px] lg:h-[450px]"
+       />
+      </div>
       <SectionBorder />
     </section>
   );
