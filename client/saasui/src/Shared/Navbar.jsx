@@ -19,8 +19,8 @@ function Navbar() {
                 </ul>
             </nav>
             <div className="auth-buttons">
-                <a href="#" className="sign-in">Sign In</a>
-                <a href="#" className="sign-up">Sign Up</a>
+                <Link to={"login"} className="sign-in">Sign In</Link>
+                <Link to={"register"} className="sign-up">Sign Up</Link>
             </div>
         </div>
     </header>
