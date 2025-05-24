@@ -2,11 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "../App";
 import About from "../Pages/AboutUs/About";
-import Contact from "../Pages/Contact";
-import Home from "../Pages/Home";
 import Services from "../Pages/Services/Services";
 import ServicesDetails from "../Pages/ServicesDetails/ServicesDetails";
 import ContactUsPage from "../Pages/ContactUs/ContactUsPage";
+import Home from "../Pages/Home/Home";
 
 function Router() {
   return (
